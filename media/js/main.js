@@ -71,7 +71,6 @@ $(document).ready(function () {
                 $(this).toggleClass('rotate-45');
                 eventElem.stop().slideToggle();
             }else{
-                console.log('baskasini baglayarken');
                 $.each(allListItems, function(index, item){
                     var checkedElem = $(item).find('ul');
                     if(checkedElem.css('display') === 'block'){
@@ -108,7 +107,7 @@ $(document).ready(function () {
         autoHideScrollbar: false,
         theme: 'dark',
         advanced: {
-            updateOnContentResize: false
+            updateOnContentResize: false,
         },
         axis: 'x',
         scrollInertia: 100
@@ -272,6 +271,43 @@ $(document).ready(function(){
     });
 });
 /** /Back To Top**/
+
+
+/*Increment and Decrement Product Count*/
+/*
+    e -> is clicked element,
+    o-> is operation (incerement or decrement),s
+    cc -> is current count,
+    ce -> is current element,
+*/
+(function($){
+    $.fn.changeCount = function(o){
+        var e = $(this);
+        var ce = e.closest('div').find('h3');
+        cc = ce.html();
+
+        if(o === '+'){
+            cc++;
+        }else if(o === '-'){
+            cc--;
+        }
+         ce.text(cc);
+    }
+
+    /*Use custom plugin function*/
+    $('#increment_count').on({
+        click: function(){
+            $(this).changeCount('+')
+        }
+    });
+    $('#decrement_count').on({
+        click: function(){
+            $(this).changeCount('-')
+        }
+    });
+})(jQuery)
+/* /Increment and Decrement Product Count*/
+
 
 /**Clear Console**/
 

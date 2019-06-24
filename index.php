@@ -118,7 +118,9 @@
                                     <img class="img-responsive" src="./media/img/images/adv_1.png">
                                 </div>
                                 <div class="item_row__column">
-                                    <h3>3</h3>
+                                    <span id="decrement_count"><i class="fa fa-minus"></i></span>
+                                        <h3>3</h3>
+                                    <span id="increment_count"><i class="fa fa-plus"></i></span>
                                 </div>
                                 <div class="item_row__column">
                                     <h3>$120</h3>
@@ -216,7 +218,7 @@
 <!-- /Header-->
 <!--Main-->
 <section>
-    <div class="container-fluid">
+    <div class="container">
         <div class="main">
             <!-- Main Banner-->
             <h1 class="text-uppercase section_title">Main Page</h1>
@@ -1019,42 +1021,44 @@
         <div class="row footer_inner">
             <button class="back-to-top">back to top</button>
             <div class="footer_inner__base">
-                <div class="footer___component">
-                    <div class="col-xs-6 col-sm-3 footer__base_item">
-                        <h4>Get to Know Us</h4>
-                        <p><a href="">Careers</a></p>
-                        <p><a href="">Blog</a></p>
-                        <p><a href="">About Store</a></p>
-                        <p><a href="">Investor Relations</a></p>
-                        <p><a href="">Store Devices</a></p>
-                        <p><a href="">Tour an Store Fulfillment Center</a></p>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 footer__base_item">
-                        <h4>Make Money with Us</h4>
-                        <p><a href="">Sell on Store</a></p>
-                        <p><a href="">Sell Your Services on Store</a></p>
-                        <p><a href="">Sell on Store Business</a></p>
-                        <p><a href="">Sell Your Apps on Store</a></p>
-                        <p><a href="">Become an Affiliate</a></p>
-                        <p><a href="">Advertise Your Products</a></p>
-                        <p><a href="">Self-Publish with Us</a></p>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 footer__base_item">
-                        <h4>Store Payment Products</h4>
-                        <p><a href="">Store Business Card</a></p>
-                        <p><a href="">Shop with Points</a></p>
-                        <p><a href="">Reload Your Balance</a></p>
-                        <p><a href="">Store Currency Converter</a></p>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 footer__base_item">
-                        <h4>Let Us Help You</h4>
-                        <p><a href="">Your Account</a></p>
-                        <p><a href="">Your Orders</a></p>
-                        <p><a href="">Shipping Rates & Policies</a></p>
-                        <p><a href="">Returns & Replacements</a></p>
-                        <p><a href="">Manage Your Content and Devices</a></p>
-                        <p><a href="">Store Assistant</a></p>
-                        <p><a href="">Help</a></p>
+                <div class="footer___component container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 footer__base_item">
+                            <h4>Get to Know Us</h4>
+                            <p><a href="">Careers</a></p>
+                            <p><a href="">Blog</a></p>
+                            <p><a href="">About Store</a></p>
+                            <p><a href="">Investor Relations</a></p>
+                            <p><a href="">Store Devices</a></p>
+                            <p><a href="">Tour an Store Fulfillment Center</a></p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 footer__base_item">
+                            <h4>Make Money with Us</h4>
+                            <p><a href="">Sell on Store</a></p>
+                            <p><a href="">Sell Your Services on Store</a></p>
+                            <p><a href="">Sell on Store Business</a></p>
+                            <p><a href="">Sell Your Apps on Store</a></p>
+                            <p><a href="">Become an Affiliate</a></p>
+                            <p><a href="">Advertise Your Products</a></p>
+                            <p><a href="">Self-Publish with Us</a></p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 footer__base_item">
+                            <h4>Store Payment Products</h4>
+                            <p><a href="">Store Business Card</a></p>
+                            <p><a href="">Shop with Points</a></p>
+                            <p><a href="">Reload Your Balance</a></p>
+                            <p><a href="">Store Currency Converter</a></p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 footer__base_item">
+                            <h4>Let Us Help You</h4>
+                            <p><a href="">Your Account</a></p>
+                            <p><a href="">Your Orders</a></p>
+                            <p><a href="">Shipping Rates & Policies</a></p>
+                            <p><a href="">Returns & Replacements</a></p>
+                            <p><a href="">Manage Your Content and Devices</a></p>
+                            <p><a href="">Store Assistant</a></p>
+                            <p><a href="">Help</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
