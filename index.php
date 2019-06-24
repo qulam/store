@@ -29,28 +29,126 @@
                 </div>
             </div>
             <div class="header__right">
-                <ul>
+                <ul class="no-select">
                     <li class="login__reg">
-                        <span><i class="fa fa-user-plus"></i></span>
+                        <span id="toggle-log__reg" data-event="toggle-log__reg"><i class="fa fa-user-plus"></i></span>
                     </li>
                     <li class="basket">
-                        <span><i class="fa fa-shopping-basket"></i></span>
+                        <span id="toggle-card" data-event="toggle-card"><i class="fa fa-shopping-basket"></i></span>
                     </li>
                 </ul>
+
+                <!-- Login and Registration -->
+                <div class="log_reg" data-event="toggle-log__reg">
+                    <span class="top_icon"></span>
+                    <div class="login_reg__inner">
+                        <div class="reg">
+                            <h3>Registration</h3>
+                            <form id="regForm">
+                                <div class="reg_firstname">
+                                    <input placeholder="firstname" type="text" id="firstname" name="firstname">
+                                </div>
+                                <div class="reg_lastname">
+                                    <input placeholder="lastname" type="text" id="lastname" name="lastname">
+                                </div>
+                                <div class="reg_email">
+                                    <input placeholder="email" type="text" id="reg_email" name="reg_email">
+                                </div>
+                                <div class="reg_password">
+                                    <input placeholder="password" type="text" id="reg_password" name="reg_password">
+                                </div>
+                                <div class="reg_submit">
+                                    <input type="submit" name="reg___submit" id="reg___submit" value="Registration  ">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="log">
+                            <h3>Login</h3>
+                            <form action="" id="logForm" autocomplete="off">
+                                <div class="log_username">
+                                    <input placeholder="username" type="text" id="username" name="username">
+                                </div>
+                                <div class="log_password">
+                                    <span class="password_eye"><i class="fa fa-eye"></i></span>
+                                    <input placeholder="password" type="password" id="password" name="password">
+                                    <a class="forget___password" href="">forget password or username ?</a>
+                                </div>
+                                <div class="log_submit">
+                                    <input type="submit" id="login___submit" value="Login">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Login and Registration -->
+
+                <!-- Card -->
+                <div class="card" data-event="toggle-card">
+                    <div class="card_header">
+                       <h2 class="">Your Card</h2>
+                    </div>
+                    <div class="card_body">
+                        <!-- thead -->
+                        <div class="card_body__thead">
+                            <div class="thead_item">
+                                <h5>Name</h5>
+                            </div>
+                            <div class="thead_item">
+                                <h5>Image</h5>
+                            </div>
+                             <div class="thead_item">
+                                <h5>Count</h5>
+                            </div>
+                             <div class="thead_item">
+                                <h5>Price</h5>
+                            </div>
+                            <div class="thead_item">
+                                <h5>Total Price</h5>
+                            </div>
+                        </div>
+                        <!-- /thead -->
+                        <!-- items -->
+                        <div class="card_body__items">
+                            <!-- first item -->
+                            <div class="item_row">
+                                <div class="item_row__column">
+                                    <h6>LTE NANO-300</h6>
+                                </div>
+                                <div class="item_row__column">
+                                    <img class="img-responsive" src="./media/img/images/adv_1.png">
+                                </div>
+                                <div class="item_row__column">
+                                    <h3>3</h3>
+                                </div>
+                                <div class="item_row__column">
+                                    <h3>$120</h3>
+                                </div>
+                                <div class="item_row__column">
+                                    <h3>$360</h3>
+                                </div>
+                            </div>
+                            <!-- /first item -->
+                        </div>
+                        <!-- /items -->
+                    </div>
+                </div>
+                <!-- /Card -->
+
             </div>
         </div>
         <div class="header_bottom">
             <div class="header_bottom__inner">
                 <span
-                        class="text-uppercase text-center header__category_span no-select"
-                        data-event="toggle-cat"
+                    class="text-uppercase text-center header__category_span no-select"
+                    data-event="toggle-cat"
+                    id = "oc-event"
                 >Category <i class="fa fa-list-alt" aria-hidden="true"></i></span>
-                <div class="header__category" data-event="toggle-cat">
+                <div class="header__category" data-event="toggle-cat" id = "oc-selector">
                     <ul class="text-capitalize header__category_inner">
                         <li>
                             <a href="">All Categories</a>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="">Man<i class="fa fa-plus open-list"></i></a>
                             <ul>
                                 <li>
@@ -64,7 +162,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="">Woman <i class="fa fa-plus open-list"></i></a>
                             <ul>
                                 <li>
@@ -81,7 +179,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="">Children <i class="fa fa-plus open-list"></i></a>
                             <ul>
                                 <li>
@@ -95,7 +193,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li>
+                        <li class="menu-item">
                             <a href="">Unisex <i class="fa fa-plus open-list"></i></a>
                             <ul>
                                 <li>
@@ -116,7 +214,6 @@
     </div>
 </header>
 <!-- /Header-->
-
 <!--Main-->
 <section>
     <div class="container-fluid">

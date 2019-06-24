@@ -34,16 +34,56 @@ $(document).ready(function () {
         });
     }
 
+    /*Open and Close */
     eventCommand('.header__category_span', 'click', {});
+
+    /*Open and Close Card ...*/
+    eventCommand('#toggle-card', 'click', {});
+
+    /*Open and Close Login And Registration ...*/
+    eventCommand('#toggle-log__reg', 'click', {});
+
 
     /** Header category open and close list items **/
     $(document).on('click', '.open-list', function (e) {
         e.preventDefault();
-        $(this).toggleClass('rotate-45');
-        var eventElem = $(this).closest('li').find('ul');
-        eventElem.stop().slideToggle();
-    });
 
+        var allListItems = $(this).parents('.header__category_inner').find('.menu-item');
+        var eventElem = $(this).closest('li').find('ul');
+        var isFirst = true;
+        var closeSelf = false;
+
+        $.each(allListItems, function(index, item){
+            if($(item).find('.open-list').hasClass('rotate-45')){
+                isFirst = false;
+            }
+        });
+
+        if($(this).hasClass('rotate-45')){
+            closeSelf = true;
+        }
+
+        if(isFirst){ 
+            $(this).toggleClass('rotate-45');
+            eventElem.stop().slideToggle();
+        }else{
+            if(closeSelf){
+                $(this).toggleClass('rotate-45');
+                eventElem.stop().slideToggle();
+            }else{
+                console.log('baskasini baglayarken');
+                $.each(allListItems, function(index, item){
+                    var checkedElem = $(item).find('ul');
+                    if(checkedElem.css('display') === 'block'){
+                        checkedElem.closest('li').find('.open-list').toggleClass('rotate-45');
+                        checkedElem.stop().slideToggle();
+                    }
+                });
+                $(this).toggleClass('rotate-45');
+                eventElem.stop().slideToggle();
+            }
+        }
+    });
 });
 
 
