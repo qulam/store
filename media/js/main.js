@@ -273,14 +273,16 @@ $(document).ready(function(){
 /** /Back To Top**/
 
 
-/*Increment and Decrement Product Count*/
-/*
-    e -> is clicked element,
-    o-> is operation (incerement or decrement),s
-    cc -> is current count,
-    ce -> is current element,
-*/
+
 (function($){
+            /*INCEREMENT && DECREMENT*/
+    /*Increment and Decrement Product Count*/
+    /*
+        e -> is clicked element,
+        o-> is operation (incerement or decrement),s
+        cc -> is current count,
+        ce -> is current element,
+    */
     $.fn.changeCount = function(o){
         var e = $(this);
         var ce = e.closest('div').find('h3');
@@ -305,9 +307,64 @@ $(document).ready(function(){
             $(this).changeCount('-')
         }
     });
-})(jQuery)
-/* /Increment and Decrement Product Count*/
+    /* /Increment and Decrement Product Count*/
+                /* /INCEREMENT && DECREMENT*/
 
+                /*CLOSE ACTIVE*/
+    /*Close All Active Elements When Clicked The DOM*/
+    $.fn.closeActive = function(e, o){
+        var clickedElement = $(this);
+        var targetElement = $(e.target);
+        var className = e.target.className;
+        var stopPropElements = o.stopProp;
+        var parentHasClickEventCommand = targetElement.closest('.clickEventCommand');
+        var stopPropagation = false;
+        var isFirstClick = false;
+        var hasClickEventCommand = clickedElement.find('.clickEventCommand');
+
+        $.each(stopPropElements, function(index, itemClass){
+            if(className.indexOf(itemClass) != -1 || parentHasClickEventCommand.length != 0){
+                targetElement.addClass('stopPropagation');
+            }
+        });
+
+        if(hasClickEventCommand.length = 0){
+            isFirstClick = true;
+        }
+
+        if(targetElement.hasClass('stopPropagation')){
+            stopPropagation = true;
+        }
+
+        if(parentHasClickEventCommand.length != 0){
+            e.stopPropagation();
+        }
+
+        if(stopPropagation){
+            if(!isFirstClick){
+                e.stopPropagation();
+            }
+            targetElement.removeClass('stopPropagation');
+        }else{
+            clickedElement.find('.clickEventCommand').removeClass('clickEventCommand');
+        }
+    }
+    $(document).on({
+        click: function(e){
+            $(this).closeActive(e, {
+                stopProp: [
+                'fa-shopping-basket',
+                'fa-user-plus',
+                'fa-list-alt',
+                ],
+            });
+        }
+    });
+
+/* /Close All Active Elements When Clicked The DOM*/
+                /* /CLOSE ACTIVE*/
+
+})(jQuery)
 
 /**Clear Console**/
 
