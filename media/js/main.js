@@ -297,12 +297,12 @@ $(document).ready(function(){
     }
 
     /*Use custom plugin function*/
-    $('#increment_count').on({
+    $('.increment_count').on({
         click: function(){
             $(this).changeCount('+')
         }
     });
-    $('#decrement_count').on({
+    $('.decrement_count').on({
         click: function(){
             $(this).changeCount('-')
         }

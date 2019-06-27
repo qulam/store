@@ -222,7 +222,7 @@ header {
     height: auto;
     border-radius: 2px;
     background: var(--glob-red);
-    z-index: 999;
+    z-index: 1000;
 }
 
 .header__category_span i {
@@ -290,7 +290,8 @@ header {
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 50px
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .main_child .slider_arrows_inner {
@@ -846,6 +847,7 @@ header {
 /**Brands && Partners**/
 .brandpart {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .brands, .partners {
@@ -1105,6 +1107,7 @@ header {
     flex-direction: column;
     width: 70%;
     padding: 15px;
+    right: 35px;
     height: auto;
     position: absolute;
     background: #fff;
@@ -1119,8 +1122,6 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
     font-weight: 600;
 }
 
@@ -1144,6 +1145,11 @@ header {
     display: flex;
     width: 100%;
     height: 100%;
+    border: 1px solid #ddd;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 8px;
 }
 
 .thead_item h5 {
@@ -1160,6 +1166,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }
@@ -1178,13 +1185,15 @@ header {
     width: 100%;
     max-height: 100px;
     padding: 15px;
+    border: 1px solid #ddd;
+    margin: 3px;
 }
 
 .item_row__column img {
     height: 100%;
 }
 
-#increment_count, #decrement_count {
+.increment_count, .decrement_count {
     cursor: pointer;
     padding: 3px;
     display: flex;
@@ -1196,8 +1205,244 @@ header {
     border-radius: 50%;
 }
 
-#increment_count {
+.increment_count {
     border-color: darkgreen;
     color: darkgreen;
 }
 /** /Card**/
+
+/*PRODUCT IN PAGE*/
+.product_view {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.product_view__preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 350px;
+    padding: 25px;
+}
+
+.product_view_conf__widget {
+    padding: 5px;
+}
+
+.product_view_conf__widget h5 {
+    font-weight: bold;
+    color: rgba(0, 0, 255, 0.6);
+}
+
+.product_view_conf__widget h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: var(--glob-gray);
+}
+
+.product_view_conf__widget p {
+    color: var(--glob-gray);
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(142, 141, 138, 0.3);
+    line-height: 1.4;
+}
+
+.color-sceme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.color-sceme h6 {
+    display: block;
+    color: var(--glob-gray);
+    width: 100%;
+}
+
+.color-sceme .colors {
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.color-sceme .colors span {
+    display: flex;
+    width: 27px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0px 0px 0px 2px #ddd;
+    cursor: pointer;
+}
+
+/*temporary colors*/
+.color-sceme .colors span:nth-child(1) {
+    background-color: #333232;
+}
+
+.color-sceme .colors span:nth-child(2) {
+    background-color: #5e62bd;
+}
+
+.color-sceme .colors span:nth-child(3) {
+    background-color: #8b0c25;
+}
+/* /temporary colors*/
+
+.conf h6 {
+    display: block;
+    color: var(--glob-gray);
+    width: 100%;
+    margin-top: 15px;
+}
+
+.conf .conf-inner {
+    display: flex;
+    align-items: center;
+}
+
+.conf .conf-inner button {
+    border: 1px solid rgba(142, 141, 138, 0.6);
+    background-color: #fff;
+    margin-right: 3px;
+    color: #6e6a6a;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+
+.conf p {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 255, 0.6);
+    font-size: 13px;
+}
+
+.conf span:first-child {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted;
+    border-radius: 50%;
+}
+
+.conf__widget___foot {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.conf__widget___foot h3{
+    color: var(--glob-gray);
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.conf__widget___foot button {
+    background: rgba(87, 137, 87, 1);
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(87,137,87, 0.8);
+}
+
+.share {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    height: 200px;
+    width: 120px;
+    left: 5px;
+    z-index: 999;
+}
+
+.share_inner {
+    padding: 15px;
+}
+
+.share ul {
+    margin: 0;
+    padding: 0;
+}
+
+.share ul li {
+    list-style: none;
+}
+
+.share ul li a {
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.share ul li a span {
+    font-weight: bold;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.share ul li a span:first-child {
+    background: #fff;
+    font-weight: normal;
+    color: #3b5998;
+    padding-right: 2px;
+    padding-left: 2px;
+    border-radius: 1px;
+}
+
+.share ul li a.tweet span:first-child,
+.share ul li a.pinterest span:first-child {
+    background-color: transparent;
+    color: #fff;
+}
+
+/*social icons background color*/
+
+.share ul li a.fb {
+    background: #3b5998 !important;
+}
+
+.share ul li a.tweet {
+    background-color: #55acee !important;
+}
+
+.share ul li a.linkedin {
+    background-color: #0077B5 !important;
+}
+
+.share ul li a.pinterest {
+    background-color: #cc2127 !important;
+}
+/* /social icons background color*/
+
+
+
+/* /PRODUCT IN PAGE*/
+
