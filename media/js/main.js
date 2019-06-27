@@ -63,7 +63,7 @@ $(document).ready(function () {
             closeSelf = true;
         }
 
-        if(isFirst){ 
+        if(isFirst){
             $(this).toggleClass('rotate-45');
             eventElem.stop().slideToggle();
         }else{
@@ -348,7 +348,7 @@ $(document).ready(function(){
         }else{
             clickedElement.find('.clickEventCommand').removeClass('clickEventCommand');
         }
-    }
+    };
     $(document).on({
         click: function(e){
             $(this).closeActive(e, {
@@ -364,7 +364,7 @@ $(document).ready(function(){
 /* /Close All Active Elements When Clicked The DOM*/
                 /* /CLOSE ACTIVE*/
 
-})(jQuery)
+})(jQuery);
 
 /**Clear Console**/
 
