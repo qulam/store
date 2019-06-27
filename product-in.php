@@ -244,6 +244,7 @@
 <section>
     <div class="container">
         <div class="main">
+            <h1 class="text-uppercase section_title">Product In Page</h1>
 
             <!-- Product Preview -->
             <div class="product_view row">
