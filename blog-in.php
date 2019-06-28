@@ -244,6 +244,47 @@
     <div class="container">
         <div class="main">
             <h1 class="text-uppercase section_title">Blog In Page</h1>
+                   <!-- share -->
+                <div class="share share-inline">
+                    <div class="share_inner">
+                        <ul>
+                            <!-- fb -->
+                            <li>
+                                <a href="" class="fb">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span>Share</span>
+                                </a>
+                            </li>
+                            <!-- /fb -->
+                            <!-- tweet -->
+                            <li>
+                                <a href="" class="tweet">
+                                    <span><i class="fab fa-twitter"></i></span>
+                                    <span>Tweet</span>
+                                </a>
+                            </li>
+                            <!-- /tweet -->
+                            <!-- linkedin -->
+                            <li>
+                                <a href="" class="linkedin">
+                                    <span><i class="fab fa-linkedin-in"></i></span>
+                                    <span>Share</span>
+                                </a>
+                            </li>
+                            <!-- /linkedin -->
+
+                            <!-- pinterest -->
+                            <li>
+                                <a href="" class="pinterest">
+                                    <span><i class="fab fa-pinterest-p"></i></span>
+                                    <span>Pin It</span>
+                                </a>
+                            </li>
+                            <!-- /pinterest -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- /share -->
             <!-- Blog -->
             <div class="blog"> 
                 <div class="row blog_in">
@@ -465,7 +506,16 @@
                         </div>
                     </div>
                     <div class="col-sm-7 comment_form">
-                        
+                        <div class="item-helper">
+                            <div class="comment_form__inner">
+                            <form action="" method="">
+                                <div class="form-item">
+                                    <textarea class="txt-area" placeholder="Write comment ..."></textarea>
+                                </div>
+                                <input class="submit_btn btn btn-primary btn-sm btn-block" type="submit" name="" value="Send">
+                            </form>
+                        </div>
+                        </div>
                     </div>
                 </div>
                 <!-- /Blog Comments -->

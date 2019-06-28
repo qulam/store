@@ -1,4 +1,4 @@
-<!-- Home Page -->
+<!-- Product In Page -->
 
 <!doctype html>
 <html lang="en">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./media/css/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
     <link rel="stylesheet" href="./media/css/style.css">
+
     <title>Store</title>
 </head>
 <body>
@@ -243,85 +244,109 @@
 <section>
     <div class="container">
         <div class="main">
-            <!-- Main Banner-->
-            <h1 class="text-uppercase section_title">Main Page</h1>
-            <div class="row main_child">
-                <div class="col-xs-12 main_banner">
-                    <div class="main__banner_slider">
-                        <div class="row slider_item">
-                            <div class="col-xs-4">
-                                <a href="">
-                                    <img src="media/img/images/new_3.jpg" class="img-responsive" alt="">
-                                </a>
+            <h1 class="text-uppercase section_title">Category Page</h1>
+            <!-- Categories -->
+            <div class="category">
+                <div class="category_in row">
+                    <!-- first category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Man</a></h2>
                             </div>
-                            <div class="col-xs-6">
-                                <h3>First item</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
-                                    Accept to reload animate through seo make propagation.Allow access true prepare,
-                                    Role access control system.
-                                </p>
-                                <p class="price">$499</p>
-                                <div class="btn_group">
-                                    <a href="">more</a>
-                                    <span>add to cart</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row slider_item">
-                            <div class="col-xs-4">
-                                <a href="">
-                                    <img src="media/img/images/new_1.jpg" class="img-responsive" alt="">
-                                </a>
-                            </div>
-                            <div class="col-xs-6">
-                                <h3>Second item</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
-                                    Accept to reload animate through seo make propagation.Allow access true prepare,
-                                    Role access control system.
-                                </p>
-                                <p class="price">$210</p>
-                                <div class="btn_group">
-                                    <a href="">more</a>
-                                    <span>add to cart</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row slider_item">
-                            <div class="col-xs-4">
-                                <a href="">
-                                    <img src="media/img/images/new_7.jpg" class="img-responsive" alt="">
-                                </a>
-                            </div>
-                            <div class="col-xs-6">
-                                <h3>Third item</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
-                                    Accept to reload animate through seo make propagation.Allow access true prepare,
-                                    Role access control system.
-                                </p>
-                                <p class="price">$600</p>
-                                <div class="btn_group">
-                                    <a href="">more</a>
-                                    <span>add to cart</span>
-                                </div>
-                            </div>
+                            <a href="">
+                                <img src="./media/img/images/deals.png" class="img-responsive">
+                            </a>
                         </div>
                     </div>
-                    <div class="slider_arrows">
-                        <div class="slider_arrows_inner">
-                            <span class="slide_left"><i class="fa fa-angle-left"></i></span>
-                            <span class="slide_right"><i class="fa fa-angle-right"></i></span>
+                    <!-- /first category -->
+                    <!-- second category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Woman</a></h2>
+                            </div>
+                            <a href="">
+                                <img src="./media/img/images/new_2.jpg" class="img-responsive">               
+                            </a>
                         </div>
                     </div>
+                    <!-- /second category -->
+                    <!-- third category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Children</a></h2>
+                            </div>
+                            <a href="">
+                                <img src="./media/img/images/new_1.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /third category -->
+                    <!-- fourth category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Unisex</a></h2>
+                            </div>
+                            <a href=""><img src="./media/img/images/new_3.jpg" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <!-- /fourth category -->
+                    <!-- fiveth category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Man</a></h2>
+                            </div>
+                            <a href="">
+                                <img src="./media/img/images/deals.png" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /fiveth category -->
+                    <!-- sixth category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Woman</a></h2>
+                            </div>
+                            <a href="">
+                                <img src="./media/img/images/new_2.jpg" class="img-responsive">               
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /sixth category -->
+                    <!-- seventh category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Children</a></h2>
+                            </div>
+                            <a href="">
+                                <img src="./media/img/images/new_1.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /sevent category -->
+                    <!-- eigth category -->
+                    <div class="col-sm-3 category_item">
+                        <div class="item-helper item-helper-hover-blue">
+                            <div class="category_header">
+                                <h2><a href="">Unisex</a></h2>
+                            </div>
+                            <a href=""><img src="./media/img/images/new_3.jpg" class="img-responsive"></a>
+                        </div>
+                    </div>
+                    <!-- /eigth category -->
                 </div>
             </div>
-            <!-- /Main Banner -->
+            <!-- /Categories -->
 
-            <div class="section_neytral"></div>
 
             <!-- Best Sales -->
+            <div class="section_neytral"></div>
             <h1 class="text-uppercase section_title">Best Sales</h1>
             <div id="main_best__inner" class="row main_best__inner" style="margin-bottom: 90px">
                 <div class="slick_arrows">
@@ -483,167 +508,6 @@
 
             <div class="section_neytral"></div>
 
-            <!-- Offers -->
-            <h1 class="text-uppercase section_title">Our Offers</h1>
-            <div id="main_offers_inner" class="row main_best__inner" style="margin-bottom: 90px">
-                <div class="slick_arrows">
-                    <span class="left_arrow"><i class="fa fa-angle-left"></i></span>
-                    <span class="right_arrow"><i class="fa fa-angle-right"></i></span>
-                </div>
-                <div id="main_offers" class="main_best">
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_3.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_3.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_3.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_3.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_2.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_1.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                    <div class="main_best_item">
-                        <img src="./media/img/images/adv_3.png" alt="">
-                        <a href="">More</a>
-                    </div>
-                </div>
-            </div>
-            <!-- /Offers-->
-
-            <div class="section_neytral"></div>
-
-            <!-- Compaign-->
-            <h1 class="text-uppercase section_title">Compaign</h1>
-            <div class="compaign_area row">
-                <div class="compaign">
-                    <!--first compaign item-->
-                    <div class="compaign_inner">
-                        <div class="col-xs-4 compaign_inner__section">
-                            <div class="compaign_inner__section___item">
-                                <img src="./media/img/images/best_6.png" alt="">
-                                <h4 class="text-uppercase text-center">$1200</h4>
-                            </div>
-                            <h3 class="text-uppercase text-center">Iphone X</h3>
-                        </div>
-                        <div class="col-xs-1 compaign_inner__section">
-                            <h1 class="text-uppercase text-center plus">+</h1>
-                        </div>
-                        <div class="col-xs-4 compaign_inner__section">
-                            <div class="compaign_inner__section___item">
-                                <img src="./media/img/images/best_3.png" alt="">
-                                <h4 class="text-uppercase text-center">$30</h4>
-                            </div>
-                            <h3 class="text-uppercase text-center">Lte-Mono</h3>
-                        </div>
-                        <div class="col-xs-1 compaign_inner__section">
-                            <h1 class="text-uppercase text-center equal">=</h1>
-                        </div>
-                        <div class="col-xs-2 compaign_inner__section">
-                            <div class="btn_group">
-                                <a href="">More</a>
-                                <span href="">Buy</span>
-                            </div>
-                            <h1 class="text-uppercase text-center old_price">$1230</h1>
-                            <h1 class="text-uppercase text-center new_price">$1115</h1>
-                        </div>
-                    </div>
-                    <!-- /first compaign item-->
-                    <!--second compaign item-->
-                    <div class="compaign_inner">
-                        <div class="col-xs-2 compaign_inner__section">
-                            <div class="compaign_inner__section___item">
-                                <img src="./media/img/images/best_2.png" alt="">
-                                <h4 class="text-uppercase text-center">$1000</h4>
-                            </div>
-                            <h3 class="text-uppercase text-center">Equalizer RT</h3>
-                        </div>
-                        <div class="col-xs-2 compaign_inner__section">
-                            <h1 class="text-uppercase text-center plus">+</h1>
-                        </div>
-                        <div class="col-xs-2 compaign_inner__section">
-                            <div class="compaign_inner__section___item">
-                                <img src="./media/img/images/best_5.png" alt="">
-                                <h4 class="text-uppercase text-center">$25</h4>
-                            </div>
-                            <h3 class="text-uppercase text-center">Branch</h3>
-                        </div>
-                        <div class="col-xs-2 compaign_inner__section">
-                            <h1 class="text-uppercase text-center equal">=</h1>
-                        </div>
-                        <div class="col-xs-2 compaign_inner__section">
-                            <div class="btn_group">
-                                <a href="">More</a>
-                                <span href="">Buy</span>
-                            </div>
-                            <h1 class="text-uppercase text-center old_price">$1010</h1>
-                            <h1 class="text-uppercase text-center new_price">$1025</h1>
-                        </div>
-                    </div>
-                    <!-- /second compaign item-->
-                </div>
-                <div class="slider_arrows" id="compaign_arrows">
-                    <div class="slider_arrows_inner">
-                        <span class="slide_left"><i class="fa fa-angle-left"></i></span>
-                        <span class="slide_right"><i class="fa fa-angle-right"></i></span>
-                    </div>
-                </div>
-            </div>
-            <!-- /Compaign-->
-            <div class="section_neytral"></div>
-
             <!-- Purchased by your friends [pbf]-->
             <h1 class="text-uppercase section_title">Purchased by your friends </h1>
             <div class="pbf row" style="margin-bottom: 90px">
@@ -759,173 +623,6 @@
                 </div>
             </div>
             <!-- /Purchased by your friends-->
-            <div class="section_neytral"></div>
-
-            <!--Blogs-->
-            <h1 class="text-uppercase section_title">Blogs </h1>
-            <div class="blogs row" style="margin-bottom: 90px">
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic1.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Prototype</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">17</i>
-                                    <i class="fa fa-heart">15</i>
-                                    <i class="fa fa-comment">6</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic2.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Socket Io</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">24</i>
-                                    <i class="fa fa-heart">9</i>
-                                    <i class="fa fa-comment">2</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic3.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Read Me</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">19</i>
-                                    <i class="fa fa-heart">10</i>
-                                    <i class="fa fa-comment">8</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic4.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Lorem</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">32</i>
-                                    <i class="fa fa-heart">19</i>
-                                    <i class="fa fa-comment">20</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic5.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Redux</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">59</i>
-                                    <i class="fa fa-heart">23</i>
-                                    <i class="fa fa-comment">10</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic6.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Flux</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">30</i>
-                                    <i class="fa fa-heart">21</i>
-                                    <i class="fa fa-comment">17</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic7.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Context</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">11</i>
-                                    <i class="fa fa-heart">1</i>
-                                    <i class="fa fa-comment">2</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
-                    <div class="item-helper item-helper-hover-grill">
-                        <a href="">
-                            <img class="img-responsive" src="media/img/blogs/pic8.jpg" alt="">
-                        </a>
-                        <div class="blogs_item__foot">
-                            <div class="blogs_item__foot___content">
-                                <h3>Response</h3>
-                                <p>Lorem ipsum dolor sit amet</p>
-                            </div>
-                            <div class="blogs_item_foot__icons">
-                                <span class="point_view">
-                                    <i class="fa fa-eye">290</i>
-                                    <i class="fa fa-heart">157</i>
-                                    <i class="fa fa-comment">188</i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /Blogs-->
 
             <div class="section_neytral"></div>
 
@@ -1032,11 +729,11 @@
                 <!-- /Partners-->
             </div>
             <!-- /Brands && Partners-->
+
         </div>
     </div>
 </section>
 <!-- /Main-->
-
 
 <!--Footer ...-->
 <footer>
@@ -1089,9 +786,8 @@
     </div>
 </footer>
 <!-- /Footer ...-->
-
-
-<script src="./media/js/jquery-2.1.0.min.js"></script>
+<script src="./media/js/jquery-3.3.1.min.js"></script>
+<script src="./media/js/image.projection.js"></script>
 <script src="./media/js/bootstrap.min.js"></script>
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
