@@ -255,7 +255,7 @@
                                 <h2><a href="">Man</a></h2>
                             </div>
                             <a href="">
-                                <img src="./media/img/images/deals.png" class="img-responsive">
+                                <img src="./media/img/images/new_10.jpg" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -301,7 +301,7 @@
                                 <h2><a href="">Man</a></h2>
                             </div>
                             <a href="">
-                                <img src="./media/img/images/deals.png" class="img-responsive">
+                                <img src="./media/img/images/new_4.jpg" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -313,7 +313,7 @@
                                 <h2><a href="">Woman</a></h2>
                             </div>
                             <a href="">
-                                <img src="./media/img/images/new_2.jpg" class="img-responsive">               
+                                <img src="./media/img/images/new_5.jpg" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -325,7 +325,7 @@
                                 <h2><a href="">Children</a></h2>
                             </div>
                             <a href="">
-                                <img src="./media/img/images/new_1.jpg" class="img-responsive">
+                                <img src="./media/img/images/new_6.jpg" class="img-responsive">
                             </a>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                             <div class="category_header">
                                 <h2><a href="">Unisex</a></h2>
                             </div>
-                            <a href=""><img src="./media/img/images/new_3.jpg" class="img-responsive"></a>
+                            <a href=""><img src="./media/img/images/new_7.jpg" class="img-responsive"></a>
                         </div>
                     </div>
                     <!-- /eigth category -->
