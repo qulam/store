@@ -269,6 +269,23 @@ $(document).ready(function(){
             'scrollTop' : 0,
         }, 600);
     });
+
+    $('#fixed-box').sticky({topSpacing:-30});
+
+    $(document).on({
+        scroll: function(){
+            var paginationOffsetTop = $('.pagination').offset().top;
+            var currentHeight = $('#fixed-box').height();
+            var result = paginationOffsetTop - currentHeight;
+            if($(document).scrollTop() > result){
+                $("#fixed-box").unstick();
+            }else{
+                if(!$(this).hasClass('is-sticky')){
+                    $('#fixed-box').sticky({topSpacing:-30});
+                }
+            }
+        }
+    });
 });
 /** /Back To Top**/
 
@@ -406,18 +423,15 @@ $(document).on('change', '.csm-check', function(){
 });
 $('.brands-list').checkedInput();
 
-
-})(jQuery)
+})(jQuery);
 /* /Filter Widget Review Stars*/
-
-
 
 /**Clear Console**/
 
-// $(document).ready(function(){
-//     setTimeout(function(){
-//         console.clear();
-//     },2000)
-// });
+$(document).ready(function(){
+    setTimeout(function(){
+        console.clear();
+    },1000)
+});
 
 /** /Clear Console**/

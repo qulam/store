@@ -834,11 +834,15 @@ header {
 
 /**Blogs**/
 .blogs {
-    /*some codes ...*/
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
 }
 
 .blogs_item {
     margin-top: 30px;
+    display: flex;
+    min-height: 100%;   
 }
 
 .blogs_item h3, .blogs_item p {
@@ -1788,6 +1792,10 @@ header {
     margin-left: 10px;
 }
 
+.grid-fixed-left > div {
+    width: 220px !important;
+}
+
 .grid-fixed-right {
     width: calc(100% - 240px);
     margin-right: 10px;
@@ -2065,11 +2073,14 @@ header {
     border: 1px solid rgba(0, 0, 255, 0.4);
     margin-right: 0px;
 }
+
+.fixedBox {
+    top: -30px;
+    width: 200px;
+    position: fixed;
+    background-color: red;
+}
 /* /price-filter*/
 
 /* /Filter Widget*/
-
-
 /* /CATEGORY IN PAGE*/
-
-

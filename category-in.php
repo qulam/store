@@ -247,7 +247,7 @@
         <div class="grid-fixed-left">
 
             <!-- Filter Widget -->
-            <div class="filter-widget item-helper no-select">
+            <div class="filter-widget item-helper no-select" id="fixed-box">
                 <!-- by review -->
                 <div class="review-filter">
                     <h4>Review</h4>
@@ -1016,6 +1016,7 @@
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="./media/js/fontawesome.min.js"></script>
+<script src="./media/js/jquery.sticky.js"></script>
 <script src="./media/js/main.js"></script>
 </body>
 </html>
