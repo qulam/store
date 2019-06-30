@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./media/slick/css/slick-theme.css">
     <link rel="stylesheet" href="./media/css/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
     <title>Store</title>
 </head>
@@ -322,17 +323,6 @@
                             </p>
                             <h2>Main concept</h2>
                                <p>
-                                Zero night closure quadro rell pe technology promise closures.
-                                Collapse or foreign prototype running quadro lorem ipsum, in 2000
-                                th 90 perma link see from Nano.
-                                Lorem ipsum dolor sit amet, amet is queue eval nano technology.
-                                Quadro perma lorem tue fixed running time.In 1998 th 20:20 closure
-                                items rolling in the quadro.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, amet is queue eval nano technology.
-                                Quadro perma lorem tue fixed running time.In 1998 th 20:20 closure
-                                items rolling in the quadro.
                                 Zero night closure quadro rell pe technology promise closures.
                                 Collapse or foreign prototype running quadro lorem ipsum, in 2000
                                 th 90 perma link see from Nano.
