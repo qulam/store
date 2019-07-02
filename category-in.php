@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
     <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="./media/css/media.css">
     <title>Store</title>
 </head>
 <body>

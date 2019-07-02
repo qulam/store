@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
     <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="./media/css/media.css">
     <title>Store</title>
 </head>
 <body>
@@ -784,6 +784,7 @@
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="./media/js/fontawesome.min.js"></script>
+<script src="./media/js/jquery.sticky.js"></script>
 <script src="./media/js/main.js"></script>
 </body>
 </html>

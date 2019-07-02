@@ -1,0 +1,85 @@
+
+/*Small*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/*Home Page*/
+	.compaign_inner__section h1.plus, .compaign_inner__section h1.equal {
+		font-size: 6rem;		
+	}
+
+	.compaign_inner__section h3 {
+		font-size: 18px;
+	}
+
+	.compaign_inner__section___item h4 {
+		font-size: 2rem;
+	}
+
+	.compaign_inner__section h1.old_price {
+		font-size: 24px;
+	}
+
+	.compaign_inner__section h1.new_price {
+		font-size: 20px;
+	}
+
+	.compaign_inner__section {
+		width: auto;
+	}
+	/* /Home Page*/
+
+	/*Blog - In Page*/
+	.comment_widget .comment_form {
+		margin-top: 30px;
+	}
+	/* /Blog - In Page*/
+}
+
+/*Medium*/
+@media only screen and (max-width: 1199px) {
+	/*Blog - In Page*/
+	.blog_in {
+		flex-direction: column;
+	}
+
+	.blog_in__image {
+		margin-top: 40px;
+	}
+
+	.blog_in__content {
+		margin-top: 30px;
+	}
+
+	.blog_in__image .item-helper {
+		padding: 60px !important;
+	}
+
+	.blog_in__content .item-helper {
+		padding: 60px !important;
+	}
+
+	.blog_in__content h2 {
+		margin-bottom: 0px;
+		margin-top: 40px;
+	}
+
+	.blog_in__content h2:first-child {
+		margin-top: 10px;
+	}
+
+	.blog_in__content p {
+		font-size: 19px;
+	}
+	/* /Blog - In Page*/
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/*Large*/
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+
+}
