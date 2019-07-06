@@ -269,6 +269,23 @@ $(document).ready(function(){
             'scrollTop' : 0,
         }, 600);
     });
+
+    $('#fixed-box').sticky({topSpacing:-30});
+
+    $(document).on({
+        scroll: function(){
+            var paginationOffsetTop = $('.pagination').offset().top;
+            var currentHeight = $('#fixed-box').height();
+            var result = paginationOffsetTop - currentHeight;
+            if($(document).scrollTop() > result){
+                $("#fixed-box").unstick();
+            }else{
+                if(!$(this).hasClass('is-sticky')){
+                    $('#fixed-box').sticky({topSpacing:-30});
+                }
+            }
+        }
+    });
 });
 /** /Back To Top**/
 
@@ -366,12 +383,55 @@ $(document).ready(function(){
 
 })(jQuery);
 
+
+/*Filter Widget Review Stars*/
+(function($){
+    $.fn.reviewColor = function(){
+        var e = $(this);
+        var items = e.find('li');
+        var count = items.length;
+        var i = 0;
+
+        $.each(items, function(index, item){
+        
+            var stars = $(item).find('i');
+            var needleCount = stars.length - index;
+
+            $.each(stars, function(starIndex, starItem){
+                if(starIndex < needleCount - 1){
+                    $(starItem).addClass('star-active');
+                }else{
+                    $(starItem).addClass('star-deactive');
+                }
+            });
+        });
+
+    $.fn.checkedInput = function(){
+        var e = $(this);
+        var items = e.find('li');
+        var checkedInputs = items.find('input:checked');
+        var allCheckedInputs = items.find('input');
+        allCheckedInputs.closest('li').removeClass('checked');
+        checkedInputs.closest('li').addClass('checked');
+    }
+}
+
+$('.review-list').reviewColor();
+
+$(document).on('change', '.csm-check', function(){
+    $('.brands-list').checkedInput();
+});
+$('.brands-list').checkedInput();
+
+})(jQuery);
+/* /Filter Widget Review Stars*/
+
 /**Clear Console**/
 
 $(document).ready(function(){
     setTimeout(function(){
         console.clear();
-    },2000)
+    },1000)
 });
 
 /** /Clear Console**/

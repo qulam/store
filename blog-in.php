@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./media/slick/css/slick-theme.css">
     <link rel="stylesheet" href="./media/css/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./media/css/media.css">
     <title>Store</title>
 </head>
 <body>
@@ -288,12 +290,12 @@
             <!-- Blog -->
             <div class="blog"> 
                 <div class="row blog_in">
-                    <div class="col-sm-5 blog_in__image">
+                    <div class="col-sm-12 col-md-12 col-lg-5 blog_in__image">
                         <div class="item-helper p-15">
                             <img class="img-responsive" src="media/img/blogs/pic3.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-7 blog_in__content">
+                    <div class="col-sm-12 col-md-12 col-lg-7 blog_in__content">
                         <div class="item-helper">
                             <h2>Lorem Ipsum</h2>
                             <p>
@@ -329,23 +331,12 @@
                                 Quadro perma lorem tue fixed running time.In 1998 th 20:20 closure
                                 items rolling in the quadro.
                             </p>
-                            <p>
-                                Lorem ipsum dolor sit amet, amet is queue eval nano technology.
-                                Quadro perma lorem tue fixed running time.In 1998 th 20:20 closure
-                                items rolling in the quadro.
-                                Zero night closure quadro rell pe technology promise closures.
-                                Collapse or foreign prototype running quadro lorem ipsum, in 2000
-                                th 90 perma link see from Nano.
-                                Lorem ipsum dolor sit amet, amet is queue eval nano technology.
-                                Quadro perma lorem tue fixed running time.In 1998 th 20:20 closure
-                                items rolling in the quadro.
-                            </p>
                         </div>
                     </div>
                 </div>
                 <!-- Blog Comments -->
                 <div class="comment_widget row">
-                    <div class="col-sm-5 comment_writing">
+                    <div class="col-sm-12 col-md-6 col-lg-5 comment_writing">
                         <div class="item-helper">
                             <div class="row comment_list pb-15">
                                 <!-- First Comment -->
@@ -505,7 +496,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-7 comment_form">
+                    <div class="col-sm-12 col-md-6 col-lg-7 comment_form">
                         <div class="item-helper">
                             <div class="comment_form__inner">
                             <form action="" method="">
@@ -585,6 +576,7 @@
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="./media/js/fontawesome.min.js"></script>
+<script src="./media/js/jquery.sticky.js"></script>
 <script src="./media/js/main.js"></script>
 </body>
 </html>

@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./media/slick/css/slick-theme.css">
     <link rel="stylesheet" href="./media/css/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="./media/css/media.css">
     <title>Store</title>
 </head>
 <body>
@@ -516,19 +517,19 @@
                             <h3 class="text-capitalize fav__header">Purchased by Jack Taylor</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="media/img/images/featured_8.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_1.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Third item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -540,13 +541,13 @@
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_5.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_6.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -565,13 +566,13 @@
                             <h3 class="text-capitalize fav__header">Purchased by Kylie Bre</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="media/img/images/featured_2.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -583,19 +584,19 @@
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_1.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Fourth item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_8.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -783,6 +784,7 @@
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="./media/js/fontawesome.min.js"></script>
+<script src="./media/js/jquery.sticky.js"></script>
 <script src="./media/js/main.js"></script>
 </body>
 </html>

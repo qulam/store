@@ -1,0 +1,95 @@
+/* Fonts registered Area */
+
+/*DIN-Regular*/
+
+/*black*/
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../fonts/poppins/black/Poppins-Black.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/black/Poppins-Black.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/black/Poppins-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/black/Poppins-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /black*/
+
+/*bold*/
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/poppins/bold/Poppins-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/bold/Poppins-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/bold/Poppins-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/bold/Poppins-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /bold*/
+
+/*extra bold*/
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../fonts/poppins/extrabold/Poppins-ExtraBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/extrabold/Poppins-ExtraBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/extrabold/Poppins-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/extrabold/Poppins-ExtraBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /extra bold*/
+
+/*semi bold*/
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../fonts/poppins/semibold/Poppins-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/semibold/Poppins-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/semibold/Poppins-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/semibold/Poppins-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /semi bold*/
+
+/*light*/
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../fonts/poppins/light/Poppins-Light.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/light/Poppins-Light.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/light/Poppins-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/light/Poppins-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /light*/
+
+/*extra light*/
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('../fonts/poppins/extralight/Poppins-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/extralight/Poppins-ExtraLight.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/extralight/Poppins-ExtraLight.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/extralight/Poppins-ExtraLight.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /extra light*/
+
+/*medium*/
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/poppins/medium/Poppins-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/medium/Poppins-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/medium/Poppins-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/medium/Poppins-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /medium*/
+
+/*regular*/
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/poppins/regular/Poppins-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/regular/Poppins-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/regular/Poppins-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/regular/Poppins-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /regular*/
+
+
+/*thin*/
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../fonts/poppins/thin/Poppins-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins/thin/Poppins-Thin.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/poppins/thin/Poppins-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins/thin/Poppins-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+/* /thin*/
+/* Fonts registered Are end */

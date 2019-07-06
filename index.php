@@ -1,5 +1,4 @@
 <!-- Home Page -->
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,7 +12,9 @@
     <link rel="stylesheet" href="./media/slick/css/slick-theme.css">
     <link rel="stylesheet" href="./media/css/jquery.mCustomScrollbar.min.css"/>
     <link rel="stylesheet" href="./media/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./media/css/fonts.css">
     <link rel="stylesheet" href="./media/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./media/css/media.css">
     <title>Store</title>
 </head>
 <body>
@@ -254,7 +255,7 @@
                                     <img src="media/img/images/new_3.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
                                 <h3>First item</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
@@ -274,7 +275,7 @@
                                     <img src="media/img/images/new_1.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
                                 <h3>Second item</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
@@ -294,7 +295,7 @@
                                     <img src="media/img/images/new_7.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
                                 <h3>Third item</h3>
                                 <p>
                                     Lorem ipsum dolor sit amet. Ipsum meta ano delegate mention for website.
@@ -571,7 +572,7 @@
                 <div class="compaign">
                     <!--first compaign item-->
                     <div class="compaign_inner">
-                        <div class="col-xs-4 compaign_inner__section">
+                        <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
                                 <img src="./media/img/images/best_6.png" alt="">
                                 <h4 class="text-uppercase text-center">$1200</h4>
@@ -581,7 +582,7 @@
                         <div class="col-xs-1 compaign_inner__section">
                             <h1 class="text-uppercase text-center plus">+</h1>
                         </div>
-                        <div class="col-xs-4 compaign_inner__section">
+                        <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
                                 <img src="./media/img/images/best_3.png" alt="">
                                 <h4 class="text-uppercase text-center">$30</h4>
@@ -591,7 +592,7 @@
                         <div class="col-xs-1 compaign_inner__section">
                             <h1 class="text-uppercase text-center equal">=</h1>
                         </div>
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-2 col-sm-3 col-md-2 col-lg-2 compaign_inner__section">
                             <div class="btn_group">
                                 <a href="">More</a>
                                 <span href="">Buy</span>
@@ -603,27 +604,27 @@
                     <!-- /first compaign item-->
                     <!--second compaign item-->
                     <div class="compaign_inner">
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
                                 <img src="./media/img/images/best_2.png" alt="">
                                 <h4 class="text-uppercase text-center">$1000</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Equalizer RT</h3>
                         </div>
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-1 compaign_inner__section">
                             <h1 class="text-uppercase text-center plus">+</h1>
                         </div>
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-4 col-sm-3 col-sm-2 col-md-2 compaign_inner__section">
                             <div class="compaign_inner__section___item">
                                 <img src="./media/img/images/best_5.png" alt="">
                                 <h4 class="text-uppercase text-center">$25</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Branch</h3>
                         </div>
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-1 compaign_inner__section">
                             <h1 class="text-uppercase text-center equal">=</h1>
                         </div>
-                        <div class="col-xs-2 compaign_inner__section">
+                        <div class="col-xs-2 col-sm-3 col-md-2 col-lg-2 compaign_inner__section">
                             <div class="btn_group">
                                 <a href="">More</a>
                                 <span href="">Buy</span>
@@ -661,19 +662,19 @@
                             <h3 class="text-capitalize fav__header">Purchased by Jack Taylor</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="media/img/images/featured_8.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_1.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Third item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -685,13 +686,13 @@
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_5.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_6.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -710,13 +711,13 @@
                             <h3 class="text-capitalize fav__header">Purchased by Kylie Bre</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="media/img/images/featured_2.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -728,19 +729,19 @@
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_1.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Fourth item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_3.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="media/img/images/featured_8.png" alt="">
+                                    <img src="media/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -764,7 +765,7 @@
             <!--Blogs-->
             <h1 class="text-uppercase section_title">Blogs </h1>
             <div class="blogs row" style="margin-bottom: 90px">
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic1.jpg" alt="">
@@ -784,7 +785,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic2.jpg" alt="">
@@ -804,7 +805,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic3.jpg" alt="">
@@ -824,7 +825,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic4.jpg" alt="">
@@ -844,7 +845,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic5.jpg" alt="">
@@ -864,7 +865,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic6.jpg" alt="">
@@ -884,7 +885,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic7.jpg" alt="">
@@ -904,7 +905,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-3 blogs_item">
+                <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
                             <img class="img-responsive" src="media/img/blogs/pic8.jpg" alt="">
@@ -1090,12 +1091,12 @@
 </footer>
 <!-- /Footer ...-->
 
-
 <script src="./media/js/jquery-2.1.0.min.js"></script>
 <script src="./media/js/bootstrap.min.js"></script>
 <script src="./media/slick/js/slick.js"></script>
 <script src="./media/js/jquery.mCustomScrollbar.min.js"></script>
 <script src="./media/js/fontawesome.min.js"></script>
+<script src="./media/js/jquery.sticky.js"></script>
 <script src="./media/js/main.js"></script>
 </body>
 </html>
