@@ -975,7 +975,7 @@ header {
     background: rgba(232, 90, 79, 1);
     background: #fff;
     z-index: 999;
-    box-shadow: 0px 0px 4px 0.3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24)
 }
 
 @keyframes open-close-anim {
@@ -1170,7 +1170,7 @@ header {
     z-index: 999;
     top: 90px;
     height: 435px;
-    box-shadow: 0px 1px 0px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,.19), 0 12px 15px 0 rgba(0,0,0,.24);
 }
 
 .card_header h2 {
@@ -1663,7 +1663,7 @@ header {
 .comment_widget .comment_form,
 .comment_widget .comment_form__inner,
 .comment_widget .comment_form form,
-.comment_widget .comment_form .form-item,
+.comment_widget .comment_form .form-item
 {
     display: flex;
     width: 100%;
