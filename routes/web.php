@@ -12,11 +12,13 @@
 */
 
 /*Frontend*/
-Route::get('/', 'HomeController@index')->name('frontend');
+Route::get('/', 'frontend\HomeController@index')->name('frontend');
 /* /Frontend*/
 
 /*Backend*/
 Auth::routes();
 
-Route::get('/admin', 'AdminController@index')->name('admin');
+Route::get('/admin', 'backend\AdminController@index')->name('admin');
+
+Route::get('/admin/logout', 'backend\AdminController@logout')->name('logout');
 /* /Backend*/

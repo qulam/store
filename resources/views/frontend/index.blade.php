@@ -6,15 +6,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="./css/slick-theme.css">
-    <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.min.css"/>
-    <link rel="stylesheet" href="./css/fontawesome.min.css">
-    <link rel="stylesheet" href="./css/fonts.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./frontend/css/all.min.css">
+    <link rel="stylesheet" href="./frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./frontend/css/slick.css">
+    <link rel="stylesheet" href="./frontend/css/slick-theme.css">
+    <link rel="stylesheet" href="./frontend/css/jquery.mCustomScrollbar.min.css"/>
+    <link rel="stylesheet" href="./frontend/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./frontend/css/fonts.css">
+    <link rel="stylesheet" href="./frontend/css/style.css">
+    <link rel="stylesheet" href="./frontend/css/media.css">
     <title>Store</title>
 </head>
 <body>
@@ -118,7 +118,7 @@
                                     <h6>LTE NANO-300</h6>
                                 </div>
                                 <div class="item_row__column">
-                                    <img class="img-responsive" src="./img/images/adv_1.png">
+                                    <img class="img-responsive" src="./frontend/img/images/adv_1.png">
                                 </div>
                                 <div class="item_row__column">
                                     <span class="decrement_count"><i class="fa fa-minus"></i></span>
@@ -139,7 +139,7 @@
                                     <h6>LTE NANO-300</h6>
                                 </div>
                                 <div class="item_row__column">
-                                    <img class="img-responsive" src="./img/images/adv_2.png">
+                                    <img class="img-responsive" src="./frontend/img/images/adv_2.png">
                                 </div>
                                 <div class="item_row__column">
                                     <span class="decrement_count"><i class="fa fa-minus"></i></span>
@@ -252,7 +252,7 @@
                         <div class="row slider_item">
                             <div class="col-xs-4">
                                 <a href="">
-                                    <img src="/img/images/new_3.jpg" class="img-responsive" alt="">
+                                    <img src="/frontend/img/images/new_3.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
@@ -272,7 +272,7 @@
                         <div class="row slider_item">
                             <div class="col-xs-4">
                                 <a href="">
-                                    <img src="/img/images/new_1.jpg" class="img-responsive" alt="">
+                                    <img src="/frontend/img/images/new_1.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
@@ -292,7 +292,7 @@
                         <div class="row slider_item">
                             <div class="col-xs-4">
                                 <a href="">
-                                    <img src="/img/images/new_7.jpg" class="img-responsive" alt="">
+                                    <img src="/frontend/img/images/new_7.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                             <div class="col-xs-8 col-sm-8 col-md-6 col-lg-6">
@@ -331,71 +331,71 @@
                 </div>
                 <div id="main_best" class="main_best">
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                 </div>
@@ -411,71 +411,71 @@
                 <span class="right_arrow"><i class="fa fa-angle-right"></i></span>
                 <div id="main_new" class="main_best">
                     <div class="main_best_item">
-                        <img src="./img/images/new_1.jpg" alt="">
+                        <img src="./frontend/img/images/new_1.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_2.jpg" alt="">
+                        <img src="./frontend/img/images/new_2.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_3.jpg" alt="">
+                        <img src="./frontend/img/images/new_3.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_4.jpg" alt="">
+                        <img src="./frontend/img/images/new_4.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_5.jpg" alt="">
+                        <img src="./frontend/img/images/new_5.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_6.jpg" alt="">
+                        <img src="./frontend/img/images/new_6.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_7.jpg" alt="">
+                        <img src="./frontend/img/images/new_7.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_8.jpg" alt="">
+                        <img src="./frontend/img/images/new_8.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_9.jpg" alt="">
+                        <img src="./frontend/img/images/new_9.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_10.jpg" alt="">
+                        <img src="./frontend/img/images/new_10.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_4.jpg" alt="">
+                        <img src="./frontend/img/images/new_4.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_4.jpg" alt="">
+                        <img src="./frontend/img/images/new_4.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_8.jpg" alt="">
+                        <img src="./frontend/img/images/new_8.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_1.jpg" alt="">
+                        <img src="./frontend/img/images/new_1.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_5.jpg" alt="">
+                        <img src="./frontend/img/images/new_5.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_9.jpg" alt="">
+                        <img src="./frontend/img/images/new_9.jpg" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/new_6.jpg" alt="">
+                        <img src="./frontend/img/images/new_6.jpg" alt="">
                         <a href="">More</a>
                     </div>
                 </div>
@@ -493,71 +493,71 @@
                 </div>
                 <div id="main_offers" class="main_best">
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_2.png" alt="">
+                        <img src="./frontend/img/images/adv_2.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_1.png" alt="">
+                        <img src="./frontend/img/images/adv_1.png" alt="">
                         <a href="">More</a>
                     </div>
                     <div class="main_best_item">
-                        <img src="./img/images/adv_3.png" alt="">
+                        <img src="./frontend/img/images/adv_3.png" alt="">
                         <a href="">More</a>
                     </div>
                 </div>
@@ -574,7 +574,7 @@
                     <div class="compaign_inner">
                         <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
-                                <img src="./img/images/best_6.png" alt="">
+                                <img src="./frontend/img/images/best_6.png" alt="">
                                 <h4 class="text-uppercase text-center">$1200</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Iphone X</h3>
@@ -584,7 +584,7 @@
                         </div>
                         <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
-                                <img src="./img/images/best_3.png" alt="">
+                                <img src="./frontend/img/images/best_3.png" alt="">
                                 <h4 class="text-uppercase text-center">$30</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Lte-Mono</h3>
@@ -606,7 +606,7 @@
                     <div class="compaign_inner">
                         <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4 compaign_inner__section">
                             <div class="compaign_inner__section___item">
-                                <img src="./img/images/best_2.png" alt="">
+                                <img src="./frontend/img/images/best_2.png" alt="">
                                 <h4 class="text-uppercase text-center">$1000</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Equalizer RT</h3>
@@ -616,7 +616,7 @@
                         </div>
                         <div class="col-xs-4 col-sm-3 col-sm-2 col-md-2 compaign_inner__section">
                             <div class="compaign_inner__section___item">
-                                <img src="./img/images/best_5.png" alt="">
+                                <img src="./frontend/img/images/best_5.png" alt="">
                                 <h4 class="text-uppercase text-center">$25</h4>
                             </div>
                             <h3 class="text-uppercase text-center">Branch</h3>
@@ -655,44 +655,44 @@
                     <!--first friend-->
                     <div class="friend">
                         <div class="col-xs-3 col-sm-2 pbf_firend__profile">
-                            <img src="/img/images/user.svg" alt="">
+                            <img src="/frontend/img/images/user.svg" alt="">
                             <h4 class="text-capitalize"><a href="">Jack Taylor</a></h4>
                         </div>
                         <div class="col-xs-9 col-sm-10 pbf_firend__fav">
                             <h3 class="text-capitalize fav__header">Purchased by Jack Taylor</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Third item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Fourth item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -704,44 +704,44 @@
                     <!-- second friend-->
                     <div class="friend">
                         <div class="col-xs-3 col-sm-2 pbf_firend__profile">
-                            <img src="/img/images/user.svg" alt="">
+                            <img src="/frontend/img/images/user.svg" alt="">
                             <h4 class="text-capitalize"><a href="">Kylie Bre</a></h4>
                         </div>
                         <div class="col-xs-9 col-sm-10 pbf_firend__fav">
                             <h3 class="text-capitalize fav__header">Purchased by Kylie Bre</h3>
                             <div class="pbf_firend__fav___products">
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>First item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Second item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Third item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Fourth item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Five item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
                                 </div>
                                 <div class="item">
-                                    <img src="/img/images/featured_4.png" alt="">
+                                    <img src="/frontend/img/images/featured_4.png" alt="">
                                     <h4>Six item</h4>
                                     <p>Lorem ipsum dolor sit amet</p>
                                     <a href="">more</a>
@@ -768,7 +768,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic1.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic1.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -788,7 +788,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic2.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic2.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -808,7 +808,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic3.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic3.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -828,7 +828,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic4.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic4.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -848,7 +848,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic5.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic5.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -868,7 +868,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic6.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic6.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -888,7 +888,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic7.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic7.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -908,7 +908,7 @@
                 <div class="col-xs-6 col-sm-6 col-md-3 blogs_item">
                     <div class="item-helper item-helper-hover-grill">
                         <a href="">
-                            <img class="img-responsive" src="/img/blogs/pic8.jpg" alt="">
+                            <img class="img-responsive" src="/frontend/img/blogs/pic8.jpg" alt="">
                         </a>
                         <div class="blogs_item__foot">
                             <div class="blogs_item__foot___content">
@@ -940,42 +940,42 @@
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_8.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_8.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_6.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_6.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_8.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_8.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_6.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_6.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_8.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_8.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 brands_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_6.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_6.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -989,42 +989,42 @@
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_7.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_7.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_5.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_5.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_7.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_7.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_5.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_5.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_7.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_7.jpg" alt="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4 partners_item">
                             <div class="item-helper">
                                 <a href="">
-                                    <img class="img-responsive" src="/img/images/brands_5.jpg" alt="">
+                                    <img class="img-responsive" src="/frontend/img/images/brands_5.jpg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -1091,12 +1091,12 @@
 </footer>
 <!-- /Footer ...-->
 
-<script src="./js/jquery-2.1.0.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/slick.js"></script>
-<script src="./js/jquery.mCustomScrollbar.min.js"></script>
-<script src="./js/fontawesome.min.js"></script>
-<script src="./js/jquery.sticky.js"></script>
-<script src="./js/main.js"></script>
+<script src="./frontend/js/jquery-2.1.0.min.js"></script>
+<script src="./frontend/js/bootstrap.min.js"></script>
+<script src="./frontend/js/slick.js"></script>
+<script src="./frontend/js/jquery.mCustomScrollbar.min.js"></script>
+<script src="./frontend/js/fontawesome.min.js"></script>
+<script src="./frontend/js/jquery.sticky.js"></script>
+<script src="./frontend/js/main.js"></script>
 </body>
 </html>
