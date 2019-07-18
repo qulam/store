@@ -11,12 +11,4 @@
 |
 */
 
-/*Frontend*/
-Route::get('/', 'HomeController@index')->name('frontend');
-/* /Frontend*/
-
-/*Backend*/
-Auth::routes();
-
-Route::get('/admin', 'AdminController@index')->name('admin');
-/* /Backend*/
+Route::get('/', 'HomeController@index');

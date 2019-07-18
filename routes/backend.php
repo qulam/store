@@ -10,13 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-/*Frontend*/
-Route::get('/', 'HomeController@index')->name('frontend');
-/* /Frontend*/
-
-/*Backend*/
 Auth::routes();
 
-Route::get('/admin', 'AdminController@index')->name('admin');
-/* /Backend*/
+Route::get('', 'AdminController@index')->name('admin');
